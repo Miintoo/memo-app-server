@@ -6,10 +6,10 @@ const app = express();
 app.use(bodyParser.json());
 
 const db = mysql.createConnection({
-  host: "mysql.railway.internal",
+  host: "127.0.0.1",
   user: "root",
-  password: "hVsnQZZYXanhInlVMFqrIGmnaBivqihL",
-  database: "memo",
+  password: "Min680829!",
+  database: "memo_app",
 });
 
 db.connect((err) => {
